@@ -37,7 +37,7 @@ class NumerosRomanosArabicos extends Model {
     }
 
     public function transformaParaArabicos($romano) {
-        $numeroEnviado = strtoupper($romano); 
+        $numeroEnviado = $romano; 
         $numeroConvertido = 0; 
         $i = 0;
     
